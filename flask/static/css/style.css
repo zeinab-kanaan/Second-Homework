@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("../static/images/1.jfif");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.book-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+  z-index: -1;
+}
+header {
+    background-color: #4287f5;
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+h1 {
+    color: #3366cc;
+    margin-top: 0;
+}
+
+h2 {
+    color: #3366cc;
+}
+
+
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+

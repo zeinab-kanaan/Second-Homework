@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Engineering Book Library - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div class="container mt-5">
+    <h1>About the Engineering Book Library</h1>
+  <img src="static/images/1.jfif" alt="Book Image" class="book-image">
+    <p>The Engineering Book Library is a comprehensive collection of books covering various engineering disciplines. Our mission is to provide a valuable resource for engineering students, professionals, and enthusiasts.</p>
+    
+    <h2>Our Team</h2>
+    <p>We have a dedicated team of engineers, educators, and enthusiasts who are passionate about sharing knowledge and promoting the field of engineering.</p>
+    
+    <h2>Our Vision</h2>
+    <p>Our vision is to foster a community of lifelong learners in engineering, empower individuals with the necessary knowledge to excel in their fields, and contribute to the advancement of engineering as a whole.</p>
+    
+
+  </div>
+
+</body>
+</html>

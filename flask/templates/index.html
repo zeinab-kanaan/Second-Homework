@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Engineering Book Library</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('index') }}">Home</a></li>
+                <li><a href="{{ url_for('about') }}">About</a></li>
+                <li><a href="{{ url_for('contact') }}">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+  <div class="container mt-5">
+    <h1>Welcome to the Engineering Book Library!</h1>
+  <img src="static/images/1.jfif" alt="Book Image" class="book-image">
+
+    <h2>Available Books:</h2>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Book Title</th>
+          <th>Author</th>
+          <th>Specialization</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Introduction to Engineering</td>
+          <td>John Smith</td>
+          <td>General Engineering</td>
+        </tr>
+          <td>Communications Engineering Principles</td>
+          <td>David Anderson</td>
+          <td>Communications Engineering</td>
+        </tr>
+        <tr>
+          <td>Communications Engineering</td>
+          <td>David Anderson</td>
+          <td>Communications Engineering</td>
+        </tr>
+        <tr>
+          <td>Communications Engineering 2</td>
+          <td>David Anderson</td>
+          <td>Communications Engineering</td>
+        </tr>
+        <tr>
+          <td>Mechanical Engineering Basics</td>
+          <td>Emily Johnson</td>
+          <td>Mechanical Engineering</td>
+        </tr>
+        <tr>
+          <td>Electrical Engineering Principles</td>
+          <td>Michael Davis</td>
+          <td>Electrical Engineering</td>
+        </tr>
+        <tr>
+          <td>Civil Engineering Fundamentals</td>
+          <td>Sarah Wilson</td>
+          <td>Civil Engineering</td>
+        </tr>
+        <tr>
+          <td>Chemical Engineering Essentials</td>
+          <td>Robert Thompson</td>
+          <td>Chemical Engineering</td>
+        </tr>
+        <tr>
+      </tbody>
+    </table>
+  </div>
+
+
+</body>
+</html>
